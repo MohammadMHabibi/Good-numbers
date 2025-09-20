@@ -1,7 +1,9 @@
-for (let i = prompt("یک عدد اول را نام ببرید"); i <= 100; i++) {
-  if (i * 1 == i) {
-    alert("درست");
-  } else {
-    alert("این عدد یا مرکبه یا هیچ کدام");
+let number = alert(prompt("say a number"))
+for(let i =number; i<100;i++){
+  if( i ===2 && number %2==0){
+    alert("this is Composite number")
+  }
+  else{
+    alert("this is primary")
   }
 }
